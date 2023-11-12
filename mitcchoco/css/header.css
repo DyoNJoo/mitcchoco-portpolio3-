@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    color: white;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 0.5rem;
+    background: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.choco img {
+   width: 60px;
+   height: 60px;
+   margin: 0 20px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    padding: 0 20px;
+}
+
+header button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Poppins ExtraBold";
+}
+

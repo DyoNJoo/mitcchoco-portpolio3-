@@ -1,0 +1,18 @@
+footer {
+    position: relative;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #f1b1d7;
+    text-align: center;
+}
+
+footer .container {
+    width: 100%;
+}
+
+footer .center {
+    color: white;
+    font-family: "Poppins Thin"
+}
